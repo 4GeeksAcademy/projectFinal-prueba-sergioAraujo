@@ -11,6 +11,7 @@ export const Home = () => {
 			<h1>Hello Rigo!!</h1>
 			<p>
 				<img src={rigoImageUrl} />
+				<img src={rigoImageUrl} />
 			</p>
 			<div className="alert alert-info">
 				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
